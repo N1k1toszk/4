@@ -161,7 +161,7 @@ function isChecked($field) {
             <br/><br/>
         Чекбокс<br/>
                 <input type="checkbox"
-                name="contract_accepted" id="contract_accepted" required
+                name="agreement" id="agreement" required
                            <?php echo isChecked('agreement'); ?>
                            class="<?php echo isset($errors['agreement']) ? 'error-field' : ''; ?>">
                     С контрактом ознакомлен(а)
